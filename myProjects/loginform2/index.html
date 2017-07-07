@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+     <!-- font-awsome   -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <div class="container">
+       <form action="post">
+           <!-- logo section -->
+           <div class="logo"></div>
+            <!--  user name section -->
+           <div class="user-name">
+               <label for="user">User Name</label>
+               <div class="container-1">
+                   <i class="fa fa-user-o user" aria-hidden="true"></i>
+                   <input type="text" id="user" placeholder="Type Your Username">
+               </div>
+           </div><!--  end user name section -->
+          <!--    password section       -->
+           <div class="password">
+               <label for="password">Password</label>
+               <div class="container-1">
+                   <i class="fa fa-lock lock" aria-hidden="true"></i>
+                   <input type="password" id="password" placeholder="Type Your Password">
+                   <a href="#">Forgot?</a>
+               </div>
+           </div><!-- end password section -->
+           <!-- sign section -->
+           <div class="sign">
+               <button>Sign-In</button>
+               <a href="#">Need Account?</a>
+           </div><!-- end sign section -->
+           <div class="container-2">
+               <div class="balls"></div>
+               <div class="balls"></div>
+           </div>
+       </form>
+   </div>
+   <script src="main.js"></script>
+</body>
+</html>
